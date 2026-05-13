@@ -169,7 +169,7 @@ export default function App() {
     <div className="old-english bg-slate-950 text-white min-h-screen">
 
       <nav className="fixed top-0 left-0 w-full bg-slate-900/90 backdrop-blur border-b border-slate-800 z-50">
-        <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+        <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between animate-fade-in">
           <h1 className="text-3xl xl:text-5xl font-bold text-yellow-300">
             ΑΘΩ
           </h1>
@@ -239,8 +239,8 @@ export default function App() {
   />
 </div>
 
-    <div className="text-center md:text-center">
-      <h1 className="old-english text-4xl md:text-5xl xl:text-7xl font-bold mb-6 text-yellow-400 leading-tight">
+    <div className="text-center md:text-center animate-fade-up">
+      <h1 className="old-english text-4xl md:text-5xl xl:text-7xl font-bold mb-6 text-yellow-400 leading-tight ">
         Alpha Theta Omega
       </h1>
 
@@ -259,14 +259,13 @@ export default function App() {
 </section>
 
 
-      <section id="about" className=" old-english py-24 px-6 bg-slate-900">
+      <section id="about" className=" old-english py-24 px-6 bg-slate-900 animate-fade-up">
         <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center">
           <img
             src={pic2}
             alt="Brotherhood"
             className="rounded-3xl shadow-2xl"
           />
-
           <div>
             <h2 className="text-2xl md:text-4xl xl:text-5xl font-bold text-center text-yellow-400 mb-6">
               About Althonians
@@ -283,7 +282,7 @@ export default function App() {
       </section>
 
       {/* Officers */}
-      <section id="officers" className=" old-english py-24 px-6">
+      <section id="officers" className=" old-english py-24 px-6 animate-fade-up">
         <div className="max-w-7xl mx-auto text-center">
           <h2 className="text-2xl md:text-4xl xl:text-5xl font-bold text-yellow-400 mb-8">
             Chapter Officers
@@ -316,7 +315,7 @@ export default function App() {
       </section>
 
       {/* Objectives */}
-      <section id="objectives" className=" old-english py-24 px-6 bg-slate-900">
+      <section id="objectives" className=" old-english py-24 px-6 bg-slate-900 animate-fade-up">
         <div className="max-w-7xl mx-auto text-center">
           <h2 className="text-2xl md:text-4xl xl:text-5xl font-bold text-yellow-400 mb-12">
             Objectives
@@ -340,7 +339,7 @@ export default function App() {
       </section>
 
 
- <section className="old-english py-24 px-6">
+ <section className="old-english py-24 px-6 animate-fade-up">
       <div className="max-w-5xl mx-auto text-center">
         <h2 className="text-2xl md:text-4xl xl:text-5xl font-bold text-yellow-400 mb-12">
           Photo Gallery
@@ -374,7 +373,7 @@ export default function App() {
 
 <section
   id="more"
-  className="md:text-2xl old-english py-24 px-6 bg-slate-900"
+  className="md:text-2xl old-english py-24 px-6 bg-slate-900 animate-fade-up"
 >
   <div className="max-w-3xl mx-auto text-center">
     <h2 className="text-2xl md:text-4xl xl:text-5xl font-bold text-yellow-400 mb-6">
@@ -403,7 +402,7 @@ export default function App() {
 </section>
 
 
-      <footer className="bg-black py-8 text-center border-t border-slate-800">
+      <footer className="bg-black py-8 text-center border-t border-slate-800 animate-fade-up">
         <p className="text-slate-400">
           ©Alpha Theta Omega.
         </p>
