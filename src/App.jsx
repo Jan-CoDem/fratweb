@@ -201,7 +201,7 @@ export default function App() {
         </div>
 
         {menuOpen && (
-          <div className=" old-english text-center md:hidden bg-slate-900 px-6 pb-4 flex flex-col gap-4">
+          <div className=" old-english text-center md:hidden bg-slate-900 px-6 pb-4 flex flex-col gap-4 animate-fade-up">
             <div className="hover:text-yellow-400 hover:scale-105">
             <a href="#home">Home</a>
             </div>
